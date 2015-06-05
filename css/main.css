@@ -2,9 +2,9 @@ body {
 	background-color: #000;
 }
 
-* {
+/** {
 	outline: red 1px solid;
-}
+}*/
 
 .main {
  	background-color: #FFF;
