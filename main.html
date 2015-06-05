@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Street Fighter Demo with JQuery</title>
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
@@ -10,10 +11,17 @@
 </head>
 <body>
 	<div class="main">
+		<div class="text-content">
+			<div class="how-to">
+				<p>Click on Ryu to throw a hadouken.</p>
+				<p>Press and hold the 'X' key to strike the "cool" pose!</p>
+			</div>
+		</div>
 		<div class="ryu">
-			<div class="ryu-still"></div>
-			<div class="ryu-ready"></div>
-			<div class="ryu-throwing"></div>
+			<div class="ryu-still ryu-action"></div>
+			<div class="ryu-ready ryu-action"></div>
+			<div class="ryu-throwing ryu-action"></div>
+			<div class="ryu-cool"></div>
 		</div>
 		<div class ="hadouken"></div>
 	</div>
